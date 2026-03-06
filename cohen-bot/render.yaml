@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: cohen-design-bot
+    runtime: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: GREEN_INSTANCE
+        sync: false
+      - key: GREEN_TOKEN
+        sync: false
+      - key: OPENAI_KEY
+        sync: false
+      - key: TRELLO_KEY
+        sync: false
+      - key: TRELLO_TOKEN
+        sync: false
+      - key: TRELLO_LIST
+        sync: false

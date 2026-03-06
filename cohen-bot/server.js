@@ -199,4 +199,3 @@ const server = http.createServer(async (req, res) => {
 
 const PORT = process.env.PORT || 3847;
 server.listen(PORT, () => console.log(`Cohen Design Bot | PORT:${PORT} | GPT:${!!OPENAI_KEY} | Instance:${GREEN_INSTANCE}`));
-// Fri Mar  6 11:58:06 IST 2026
